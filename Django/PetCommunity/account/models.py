@@ -27,14 +27,10 @@ class Member(AbstractUser):
     followings = models.ManyToManyField('self', symmetrical=False, related_name='followers')
     
     MEMBERSHIP_CHOICES = (
-        (1, '암소집사'),
-        (2, '양집사'),
-        (3, '막대기집사'),
-        (4, '비행기집사'),
-        (5, '미꾸라지집사'),
-        (6, '개구리집사'),
-        (7, '염소집사'),
-        (8, '서서잡사')
+        (1, '아기집사'),
+        (2, '어린이집사'),
+        (3, '청년집사'),
+        (4, '베테랑집사'),
     )
     membership = models.SmallIntegerField(choices = MEMBERSHIP_CHOICES, default=1)
 
