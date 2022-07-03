@@ -17,9 +17,12 @@
 }
 .profilemenu1, .profilemenu2{
     display: flex;
-    margin-left: 110px;  
-}
+    margin-left: 110px; 
 
+}
+.message{
+    margin: auto;
+}
 .profileimg{
     display: flex;
     width: 200px;
@@ -28,6 +31,7 @@
 }
 .nickname {
     display: flex;
+    margin:auto;
     flex-direction: row;
     background-color: aquamarine;
 }
@@ -94,4 +98,18 @@
 #searchbtn{
     color:#2C67C1;
     border-color: #2C67C1;
+}
+
+.today-baby{
+    position:absolute;
+    top: 250px;
+    left: 550px;
+    text-align: center;
+
+}
+.today-challenge{
+    position: absolute;
+    top: 250px;
+    left: 950px;
+    text-align: center;
 }
