@@ -31,9 +31,11 @@
         <img src="image/setting.png" alt="로고이미지" width="30" height="30">
       </a>
       </div>
-    </section>
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+      </section>
+    </div class="drop-search">
+      <div>
+      <div class="dropdown1">
+        <button id="dropdownbtn" class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
           Dropdown button
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -42,7 +44,13 @@
           <li><a class="dropdown-item" href="#">Something else here</a></li>
         </ul>
       </div>
+    
+      <form id="search" class="d-flex">
+        <input class="form-control me-5" type="search" placeholder="Search" aria-label="Search">
+        <button id="searchbtn" class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
+    
       <div class="list-group">
         <button type="button" class="writebtn">글 작성하기</button>
         <a href="#" class="list-group-item">자랑하기</a>
