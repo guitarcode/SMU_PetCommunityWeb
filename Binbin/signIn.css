@@ -9,6 +9,7 @@
     margin: 0 auto;
     margin-top: 1%;
 
+    
 }
 
 .signIn-Content::-webkit-scrollbar{
@@ -28,7 +29,7 @@
     text-align: center;
 }
 .signIn-Content div label{
-    font-size: x-large;
+    font-size: 1.5vw;
     color: rgb(40, 71, 155);
 }
 .signIn-Content div input{

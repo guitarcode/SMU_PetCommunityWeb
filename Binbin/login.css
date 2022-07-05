@@ -3,7 +3,7 @@ body{
     padding: 0%;
 }
 .Id-txt,.Pw-txt{
-    font-size: xx-large;
+    font-size: 2vw;
     color: rgb(40, 71, 155);
 }
 
@@ -39,8 +39,8 @@ margin-top: 10%;
 .Login-btngruop{
     text-align: center;
     color: rgb(40, 71, 155);
-    font-size: larger;
-    margin-left: 70px;
+    font-size: 1.3vw;
+    margin-left: 60px;
 }
 
 .Login-btngruop label{
@@ -50,12 +50,9 @@ margin-top: 10%;
 .Login-Content{
     text-align: center;
 }
-
-.Login-Singup{
-    margin-left: 140px;
-    margin-top: 10px;
+.Login-Singin{
+    margin-left: 5vw;
 }
-
 .simpleLogin{
     text-align: center;
 }
