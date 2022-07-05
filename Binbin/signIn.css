@@ -1,0 +1,37 @@
+.signIn-Content{
+    text-align: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 550px;
+    width: 50%;
+
+    display: block;
+    margin: 0 auto;
+    margin-top: 1%;
+
+}
+
+.signIn-Content::-webkit-scrollbar{
+    width: 20px;
+}
+
+.signIn-Content::-webkit-scrollbar-thumb{
+    background-color: rgb(40, 71, 155);
+    border-radius: 10px;
+}
+
+.signIn-Content::-webkit-scrollbar-track{
+    background-color: rgb(166, 179, 209);
+    border-radius: 10px;
+}
+.signIn-Btngroup{
+    text-align: center;
+}
+.signIn-Content div label{
+    font-size: x-large;
+    color: rgb(40, 71, 155);
+}
+.signIn-Content div input{
+    width: 45%;
+}
+

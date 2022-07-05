@@ -1,0 +1,62 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.Id-txt,.Pw-txt{
+    font-size: xx-large;
+    color: rgb(40, 71, 155);
+}
+
+#IdInput,#PwInput{
+    text-align: center;
+}
+
+
+.Login-Container{
+    margin-top: 13%;
+}
+
+
+input{
+    border-radius: 50px;
+    border: none;
+    width: 25%;
+    height: 7vh;
+    text-align: center;
+
+    box-shadow: 3px 5px 7px rgb(138, 137, 137);
+}
+
+
+input:focus {
+    outline: none;
+}
+
+.container-login{
+margin-top: 10%;
+}
+
+.Login-btngruop{
+    text-align: center;
+    color: rgb(40, 71, 155);
+    font-size: larger;
+    margin-left: 70px;
+}
+
+.Login-btngruop label{
+    cursor: pointer;
+}
+
+.Login-Content{
+    text-align: center;
+}
+
+.Login-Singup{
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+.simpleLogin{
+    text-align: center;
+}
+
