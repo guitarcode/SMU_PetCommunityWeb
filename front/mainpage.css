@@ -114,7 +114,7 @@
     text-align: center;
 }
 
-.col{
+.col1{
     margin:auto;
     margin-bottom: 5%;
     margin-top:5%;
@@ -125,7 +125,7 @@
     border-radius: 15px;
     text-align: center;
     
-}
+} 
 
 h2{
     margin-top:5%;
@@ -143,4 +143,8 @@ h2{
 .pointgrade-ex{
     margin:auto;
     margin-left: 4%;
+}
+
+#shop{
+    display:flex;
 }
