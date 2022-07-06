@@ -1,0 +1,52 @@
+{% extends 'account/base.html' %}
+
+{% block title %}
+    <title>main</title>
+{% endblock %}
+
+
+<body>
+   {% include 'account/navbar.html' %}
+    {% block main_area %}
+    </div class="drop-search">
+      <div>
+      <div class="dropdown1">
+        <button id="dropdownbtn" class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+
+      <form id="search" class="d-flex">
+        <input class="form-control me-5" type="search" placeholder="Search" aria-label="Search">
+        <button id="searchbtn" class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+
+
+      <div class="today-baby">
+        <h4>챌린지</h4>
+        <img src="image/logo.png" alt="우애귀이미지" width="320" height="320">
+        <p>글쓴이 이름</p>
+      </div>
+      <div class="today-challenge">
+        <h4>챌린지</h4>
+        <img src="image/logo.png" alt="챌린지이미지" width="320" height="320">
+        <p>글쓴이 이름</p>
+      </div>
+
+      <footer class="py-3 mt-5 bg-dark">
+        <div class="footer">
+            <p class="m-0 text-center text-white">
+                Copyright &copy; 우애귀 2022
+            </p>
+        </div>
+        <!-- /.container -->
+    </footer>
+</body>
+</html>
+{% endblock %}

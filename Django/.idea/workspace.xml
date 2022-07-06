@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="245a8b65-49a7-4abb-8d27-961effd35b93" name="Changes" comment="">
+    <list default="true" id="245a8b65-49a7-4abb-8d27-961effd35b93" name="Changes" comment="singup name 이름 views에 맞게 수정">
+      <change afterPath="$PROJECT_DIR$/PetCommunity/account/static/account/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetCommunity/account/templates/account/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetCommunity/account/templates/account/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetCommunity/account/templates/account/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetCommunity/account/migrations/0004_alter_member_gender_alter_member_id_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetCommunity/account/migrations/0005_alter_member_address_alter_member_email_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetCommunity/account/migrations/0006_rename_user_profile_memberid.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetCommunity/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/PetCommunity/account/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetCommunity/account/templates/account/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/PetCommunity/account/templates/account/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetCommunity/account/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/PetCommunity/account/templates/account/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetCommunity/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PetCommunity/account/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PetCommunity/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PetCommunity/account/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetCommunity/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/PetCommunity/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -28,10 +38,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,8 +56,16 @@
       <workItem from="1656821204594" duration="382000" />
       <workItem from="1656822151425" duration="11000" />
       <workItem from="1657029756701" duration="856000" />
-      <workItem from="1657126213994" duration="943000" />
+      <workItem from="1657126213994" duration="2388000" />
     </task>
+    <task id="LOCAL-00001" summary="singup name 이름 views에 맞게 수정">
+      <created>1657127350190</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657127350190</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -61,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="singup name 이름 views에 맞게 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="singup name 이름 views에 맞게 수정" />
   </component>
 </project>

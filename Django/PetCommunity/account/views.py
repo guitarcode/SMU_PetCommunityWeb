@@ -119,6 +119,8 @@ def findID(request):
                     return render(request, 'account/sendID.html')
             except:
                 messages.info(request, "해당 이메일을 가진 회원이 존재하지 않습니다")
-    return render(request, 'account/findID.html') 
+    return render(request, 'account/findID.html')
 
 
+def main(request):
+    return render(request, 'account/main.html')
