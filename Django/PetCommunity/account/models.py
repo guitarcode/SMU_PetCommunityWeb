@@ -7,10 +7,12 @@ from django.core.validators import RegexValidator
 from django.conf import settings
 
 class Member(AbstractUser):
+
     #회원id : Model에서 자동으로 생성
     id = models.CharField(max_length=30, primary_key = True)
     password = models.CharField(max_length=30)
     name = models.CharField(max_length=30, null = True)
+
     # 정규식으로 유효성 검증
     phoneNumberRegex = RegexValidator(regex = r'^01([0|1|6|7|8|9]?)-?([0-9]{3,4})-?([0-9]{4})$')
     phoneNumber = models.CharField(validators = [phoneNumberRegex], max_length = 11, unique = True, null = True)
@@ -36,7 +38,7 @@ class Member(AbstractUser):
     membership = models.SmallIntegerField(choices = MEMBERSHIP_CHOICES, default=1)
 
 class Profile(models.Model):
-    user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    memberId = models.OneToOneField(Member, on_delete=models.CASCADE)
     nickname = models.CharField(max_length=30)
     intorduction = models.TextField(blank=True)
     photo = models.ImageField(blank=True, null=True, upload_to='profile/photo')
