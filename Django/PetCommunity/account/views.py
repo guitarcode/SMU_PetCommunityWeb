@@ -6,3 +6,7 @@ from django.shortcuts import render
 
 def showstart(request):
     return render(request, 'account/start.html')
+
+
+def singup(request):
+    return render(request, 'account/signup.html')
