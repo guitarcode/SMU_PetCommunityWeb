@@ -1,5 +1,6 @@
+/* 인풋은 전부 html태그 내에서 조정했습니다 :) */
 .Fix-Content div label{
-    font-size: x-large;
+    font-size: 2vw;
     color: rgb(40, 71, 155);
 }
 

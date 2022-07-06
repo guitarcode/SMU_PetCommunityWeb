@@ -3,7 +3,7 @@
     margin-top: 10px;
 }
 .Find-Content label,.Find-Txt{
-    font-size: x-large;
+    font-size: 2vw;
     color: rgb(40, 71, 155);
     text-align: center;
 }
@@ -12,7 +12,13 @@
     margin-top: 5%;
 }
 .Find-Content input{
-    width: 28%;
+    width: 28%; 
+}
+#NameInput{
+    margin-right: 4%;
+}
+#EmailInput{
+    margin-right: 5%;
 }
 .Find-Container{
     margin-top: 10%;

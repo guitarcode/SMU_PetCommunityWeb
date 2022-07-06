@@ -1,0 +1,14 @@
+.loginFailContent label{
+    text-align: center;
+    display: block;
+    font-size:2vw;
+    color: rgb(40, 71, 155);
+
+    margin-top: 5%;
+
+    height: 10vh;
+}
+
+.loginFailBtn{
+    height: auto;
+}

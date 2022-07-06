@@ -1,17 +1,18 @@
+/* 인풋 위치는 전부 부트스트랩 사용했습니다! ;) */
+
 .signIn-Content{
     text-align: center;
     overflow: scroll;
     overflow-x: hidden;
-    height: 550px;
+    height: 60vh;
     width: 50%;
 
     display: block;
     margin: 0 auto;
     margin-top: 1%;
-
-    
 }
 
+/* 스크롤바 설정 */
 .signIn-Content::-webkit-scrollbar{
     width: 20px;
 }
@@ -25,6 +26,8 @@
     background-color: rgb(166, 179, 209);
     border-radius: 10px;
 }
+
+
 .signIn-Btngroup{
     text-align: center;
 }

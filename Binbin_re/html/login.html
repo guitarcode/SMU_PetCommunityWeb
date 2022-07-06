@@ -29,29 +29,32 @@
         <img src="2222.png" alt="logo-img">
     </div>
 
-    <form action="" class="Login-Content mt-4">
+    <form action="" class="Login-Content" style="margin-top: 1%;">
         <div id="Login-IdInput">
             <label for="IdInput" class="Id-txt">ID</label>
             <input type="text" id="IdInput" class="ml-4 mt-5" style="margin-right: 2%;">
         </div>
         <div id="Login-PwInput" class="mt-1">
             <label for="PwInput" class="Pw-txt">PW</label>
-            <input type="password" id="PwInput" class="ml-3 mt-4" style="margin-right: 2.5%;">
+            <input type="password" id="PwInput" class="ml-3 mt-4" style="margin-right: 2%;">
         </div>
     </form>
 
 
-    <div class="Login-btngruop mt-4">
+    <div class="Login-btngruop">
         <label for="" class="Login-Find" onclick="location.href='find.html'">아이디|비밀번호 찾기</label>
-        <label for="" class="Login-Singin" onclick="location.href='signIn.html'">회원가입하기</label>
+        <label for="" class="Login-Signin" onclick="location.href='signIn.html'">회원가입하기</label>
     </div>
 
     <!-- 간편로그인 제작필요--> 
-    <div class="simpleLogin mt-4">
+    <section class="simpleLogin">
         <label >간편로그인</label>
-    </div>
+        <img src="icon-facebook.png" alt="페이스북 로그인">
+        <img src="icon-kakao.png" alt="카카오톡 로그인">
+        <img src="icon-naver.png" alt="네이버 로그인">
+    </section>
 
-    <button onclick="location.href='start.html'" type="button" class="button-start" style="float: right; margin-top: 9%; margin-right: 2%; width: 25%;">이전화면으로 돌아가기</button>
+    <button onclick="location.href='start.html'" type="button" class="button-start" style="position: absolute; right:5%; bottom:5%; width: 25%;">이전화면으로 돌아가기</button>
 </div>
 </body>
 </html>
