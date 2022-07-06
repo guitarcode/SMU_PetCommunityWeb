@@ -10,3 +10,15 @@ def showstart(request):
 
 def singup(request):
     return render(request, 'account/signup.html')
+
+
+def login(request):
+    return render(request, 'account/login.html')
+
+
+def find(request):
+    return render(request, 'account/find.html')
+
+
+def findId(request):
+    return render(request, 'account/findId.html')
