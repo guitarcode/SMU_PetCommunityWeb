@@ -10,7 +10,7 @@ class Member(AbstractUser):
     memberId = models.CharField(max_length=30, unique=True, default='')
     password = models.CharField(max_length=100)
     memberName = models.CharField(max_length=30, default = '', null = True)
-    name = models.CharField(max_length=30, null = True)
+    #name = models.CharField(max_length=30, null = True)
     # 정규식으로 유효성 검증
 
     phoneNumber = models.CharField(validators = [validate_password], max_length = 11, unique = True, null = True)
@@ -38,6 +38,9 @@ class Member(AbstractUser):
         (4, '베테랑집사'),
     )
     membership = models.SmallIntegerField(choices = MEMBERSHIP_CHOICES, default=1, null = True)
+
+   # def get_memberName(self):
+    #    return f'{self.memberName} '
 
 class Profile(models.Model):
     memberId = models.OneToOneField(Member, on_delete=models.CASCADE)

@@ -1,13 +1,50 @@
-{% extends 'account/base.html' %}
+<html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설정페이지</title>
+    <!-- 부트스트랩 사용하기 위함 --> 
 
-{% block title %}
-    <title>main</title>
-{% endblock %}
-
-
+    <link rel="stylesheet" href="{% static 'account/css/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'account/bootstrap/css/bootstrap.css' %}">
+</head>
 <body>
-   {% include 'account/navbar.html' %}
-    {% block main_area %}
+    <nav class="navbar navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="#"> <!-- 로고 눌렀을 때 메인페이지로 -->
+            <img src="{% static 'images/logo.png' %}" alt="로고이미지" width="200" height="70">
+          </a>
+        </div>
+      </nav>
+      <!-- 링크형식으로  list-group-item-action-->
+      <div class="high">
+      <section class="profile">
+      <img src="{% static 'images/logo.png' %}" class="profileimg" alt="프로필이미지">
+      <div class="profilemenu1">
+      <p class="nickname"> {{ memberName }} </p>
+      <button type="button" class="logout">로그아웃</button>
+      </div>
+      <div class="profilemenu2">
+      <p class="message">한줄 메세지한줄 메세지한줄 메세지</p>
+      <a class="setting" href="/set"> <!-- 눌렀을 때 설정페이지로 -->
+        <img src="{% static 'images/logo.png' %}" alt="로고이미지" width="30" height="30">
+      </a>
+      </div>
+      <div class="list-group">
+        <button type="button" class="writebtn" onclick="location.href='/write'">글 작성하기</button>
+        <a href="#" class="list-group-item">자랑하기</a>
+        <a href="#" class="list-group-item">챌린지</a>
+        <a href="#" class="list-group-item">상점</a>
+        <a href="#" class="list-group-item">자유게시판</a>
+        <a href="#" class="list-group-item">정보나눔</a>
+        <button type="button" class="seemore">SEE MORE</button>
+        <!-- SEE MORE 있어야 되나?  -->
+      </div>
+      </section>
+      </div>
     </div class="drop-search">
       <div>
       <div class="dropdown1">
@@ -20,25 +57,25 @@
           <li><a class="dropdown-item" href="#">Something else here</a></li>
         </ul>
       </div>
-
+    
       <form id="search" class="d-flex">
         <input class="form-control me-5" type="search" placeholder="Search" aria-label="Search">
         <button id="searchbtn" class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
-
-
+    
+      
       <div class="today-baby">
         <h4>챌린지</h4>
-        <img src="image/logo.png" alt="우애귀이미지" width="320" height="320">
+        <img src="{% static 'images/logo.png' %}"  alt="우애귀이미지" width="320" height="320">
         <p>글쓴이 이름</p>
       </div>
       <div class="today-challenge">
         <h4>챌린지</h4>
-        <img src="image/logo.png" alt="챌린지이미지" width="320" height="320">
+        <img src="{% static 'images/logo.png' %}"  alt="챌린지이미지" width="320" height="320">
         <p>글쓴이 이름</p>
       </div>
-
+      
       <footer class="py-3 mt-5 bg-dark">
         <div class="footer">
             <p class="m-0 text-center text-white">
@@ -46,7 +83,6 @@
             </p>
         </div>
         <!-- /.container -->
-    </footer>
+    </footer>   
 </body>
 </html>
-{% endblock %}

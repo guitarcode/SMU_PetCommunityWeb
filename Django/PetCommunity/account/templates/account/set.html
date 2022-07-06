@@ -1,0 +1,59 @@
+<html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- 부트스트랩 사용하기 위함 -->
+
+    <link rel="stylesheet" href="{% static 'account/css/set.css' %}">
+    <link rel="stylesheet" href="{% static 'account/css/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'account/bootstrap/css/bootstrap.css' %}">
+
+</head>
+<body>
+    <nav class="navbar navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="/"> <!-- 로고 눌렀을 때 메인페이지로 -->
+            <img src="{% static 'images/logo.png' %}" alt="로고이미지" width="200" height="70">
+          </a>
+        </div>
+      </nav>
+
+      <!-- 링크형식으로  list-group-item-action-->
+    <div class="high">
+      <section class="profile">
+      <img src="{% static 'images/logo.png' %}" class="profileimg" alt="프로필이미지">
+      <div class="profilemenu1">
+      <p class="nickname"> 닉네임 </p>
+      <button type="button" class="logout">로그아웃</button>
+      </div>
+      <div class="profilemenu2">
+      <p class="message">한줄 메세지한줄 메세지한줄 메세지</p>
+      <a class="setting" href="/set"> <!-- 눌렀을 때 설정페이지로 -->
+        <img src="{% static 'images/logo.png' %}" alt="로고이미지" width="30" height="30">
+      </a>
+      </div>
+      <div class="list-group">
+        <button type="button" class="writebtn">글 작성하기</button>
+        <a href="#" class="list-group-item">자랑하기</a>
+        <a href="#" class="list-group-item">챌린지</a>
+        <a href="#" class="list-group-item">상점</a>
+        <a href="#" class="list-group-item">자유게시판</a>
+        <a href="#" class="list-group-item">정보나눔</a>
+        <button type="button" class="seemore">SEE MORE</button>
+        <!-- SEE MORE 있어야 되나?  -->
+    </div>
+    </section>
+
+    <div id="set-bt">
+        <div><button type="button" id="setbtbt" onclick="location.href='/profilepage'">프로필 설정</button>
+        </div>
+        <button type="button" onclick="" id="setbtbtbt">회원정보 수정</button>
+    </div>
+
+    </div>
+</body>
+</html>
