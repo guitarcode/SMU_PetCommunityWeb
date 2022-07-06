@@ -5,34 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="{% static 'account/css/find.css' %}">
     <link rel="stylesheet" href="{% static 'account/css/start.css' %}">
-     <link rel="stylesheet" href="{% static 'account/css/find.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'account/bootstrap/css/bootstrap.css' %}">
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <title>findId</title>
+    <title>find</title>
 </head>
 <body>
     <div class="Find-Container">
-        <section id="logo" style="margin-top: 12%;">
-            <img src="{% static 'images/logo.png' %}" alt="logo-img">
+        <section id="logo" class="mt-5">
+            <img src="{% static 'images/logo.png' %}"  alt="logo-img">
         </section>
 
-        <div class="Find-Txt" style="margin-top: 8%;">
-            <label>등록하신 이메일로 아이디가 전송되었습니다.:)</label>
+        <div class="Find-Txt mt-5">
+            <label>아래에 정보를 입력하여 주세요.</label>
         </div>
 
-        <div class="Find-Btn" style="margin-top: 8%;">
-            <button type="button" class="button-start mt-3" onclick="location.href='/login'">로그인 창으로 돌아가기</button>
-            <!--<button type="button" class="button-start mt-3 ml-4" onclick="location.href='/findPw'">비밀번호 찾기</button>-->
+        <section class="Find-Content">
+            <div>
+                <label for="NameInput">I D</label>
+                <input type="text" id="NameInput" class="ml-3 mt-4">
+            </div>
+            <div >
+                <label for="EmailInput">EMAIL</label>
+                <input type="email" id="EmailInput" class="ml-3 mt-4">
+            </div>
+        </section>
+
+        <div class="Find-Btn">
+            <button type="button" class="button-start mt-3" onclick="location.href='/findPw'">찾기</button>
         </div>
     </div>
 </body>
