@@ -1,0 +1,49 @@
+<html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시작 페이지 </title>
+    <link rel="stylesheet" href="{% static 'account/css/start.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'account/bootstrap/css/bootstrap.css' %}">
+    <!--<script src="js.js"></script>-->
+    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <section id="logo" class="mt-5">
+        <img src="{% static 'images/logo.png' %}" alt="logo-img">
+    </section>
+
+    <section class="start-imgSet mt-4">
+        <div class="imgSet">
+            <img src="{% static 'images/1.jpg' %}" id="img-1" alt="start-img1">
+            <img src="{% static 'images/2.jpg' %}" id="img-2" alt="start-img2" class="ml-4" >
+            <img src="{% static 'images/3.jpg' %}" id="img-3" alt="start-img3" class="ml-4">
+        </div>
+        <div class="btn-group mt-2">
+            <button class="button button1 mr-3" onmouseover="img_change()"></button>
+            <button class="button button2 mr-3" onmouseover="img_change()"></button>
+            <button class="button button3 mr-3" onmouseover="img_change()"></button>
+            <button class="button button4" onmouseover="img_change()"></button>
+          </div>
+    </section>
+
+    <section class="start-btn mt-3">
+        <div><button type="button" class="button-start mt-3" onclick="location.href='/signup'">회원가입하러가기</button>
+        </div>
+        <div><button type="button" class="button-start mt-3" onclick="location.href='/login'">로그인하러가기</button></div>
+    </section>
+
+    <script type="text/javascript" src="/static/js/start.js"></script>
+</body>
+</html>

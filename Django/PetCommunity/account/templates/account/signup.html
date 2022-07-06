@@ -1,0 +1,72 @@
+<html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="{% static 'account/css/style.css' %}">
+     <link rel="stylesheet" href="{% static 'account/bootstrap/css/signup.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'account/bootstrap/css/bootstrap.css' %}">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Sign-up</title>
+</head>
+<body>
+
+    <section id="logo" class="mt-5">
+        <img src="{% static 'images/logo.png' %}" alt="logo-img">
+    </section>
+
+    <form action="" class="signIn-Content">
+        <div>
+            <label for="NameInput">이름</label>
+            <input type="text" id="NameInput" name="NameInput" class="ml-4 mt-4">
+        </div>
+        <div>
+            <label for="IdInput" style="padding-left:3%">ID</label>
+            <input  type="text" id="IdInput" name="IdInput" class="ml-4 mt-4">
+        </div>
+        <div>
+            <label for="PwInput" style="padding-left:2%">PW</label>
+            <input type="password" id="PwInput" name="PwInput" class="ml-4 mt-4">
+        </div>
+        <div >
+            <label for="Pw-reInput">PW 확인</label>
+            <input type="password" id="Pw-reInput" name="Pw-reInput" class="ml-4 mt-4 mr-5">
+        </div>
+        <div >
+            <label for="EmailInput">EMAIL</label>
+            <input type="email" id="EmailInput" name="EmailInput" class="ml-4 mt-4 mr-3">
+        </div>
+        <div >
+            <label for="BirthInput">생년월일</label>
+            <input type="text" id="BirthInput" name="BirthInput" class="ml-4 mt-4 mr-5">
+        </div>
+        <div >
+            <label for="AddressInput">주소</label>
+            <input type="text" id="AddressInput" name="AddressInput"  class="ml-4 mt-4">
+        </div>
+        <div>
+            <label for="PhonenumInput">전화번호</label>
+            <input type="text" id="PhonenumInput" name="PhonenumInput" class="ml-4 mt-4 mr-5">
+        </div>
+        <div class="mb-3">
+            <label for="RecommenderInput">추천인ID</label>
+            <input type="text" id="RecommenderInput" name="RecommenderInput" class="ml-4 mt-4 mr-5">
+        </div>
+    </form>
+
+    <section class="signIn-Btngroup mt-5">
+        <button type="button" class="button-start mt-3" onclick="location.href='/'">취소</button>
+        <button type="button" class="button-start mt-3 ml-5" onclick="location.href='/'">회원가입</button>
+    </section>
+</body>
+</html>
