@@ -1,0 +1,80 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.Id-txt,.Pw-txt{
+    font-size: 2vw;
+    color: rgb(40, 71, 155);
+}
+
+#IdInput,#PwInput{
+    text-align: center;
+}
+
+
+.Login-Container{
+    margin-top: 12%;
+}
+
+
+input{
+    border-radius: 50px;
+    border: none;
+    width: 25%;
+    height: 8vh;
+    text-align: center;
+
+    box-shadow: 3px 5px 7px rgb(138, 137, 137);
+}
+
+/* 인풋창 클릭시 border X */
+input:focus {
+    outline: none;
+}
+
+/* .container-login{
+margin-top: 5%;
+} */
+
+/* 라벨 위주 */
+.Login-btngruop, .simpleLogin label{
+    text-align: center;
+    color: rgb(40, 71, 155);
+    font-size: 1.3vw;
+    margin-left: 2%;
+}
+
+.Login-btngruop{
+    margin-top: 2%;
+}
+
+.Login-btngruop label{
+    cursor: pointer;
+}
+
+.Login-Content{
+    text-align: center;
+    /* height: 23vh; */
+    
+}
+.Login-Signin{
+    margin-left: 5vw;
+}
+
+/* 간단로그인 */
+.simpleLogin{
+    text-align: center;
+    margin-top: 4%;
+    margin-right: 12%;
+}
+
+.simpleLogin img{
+    width: 4%;
+    height: 4%;
+    margin-left: 1%;
+
+    cursor: pointer;
+}
+.simpleLogin label{
+    margin-right: 3%;
+}

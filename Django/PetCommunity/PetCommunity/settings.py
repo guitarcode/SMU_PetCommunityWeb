@@ -121,6 +121,10 @@ import os
 
 STATIC_URL = 'static/'
 
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',
+]
+
 # 업로드한 파일이 저장되는 경로 지정
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
