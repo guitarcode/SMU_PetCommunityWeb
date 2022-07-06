@@ -18,7 +18,7 @@ def find(request):
 
 
 
-def findPw(request):
+def findPW(request):
     return render(request, 'account/findPw.html')
 
 
