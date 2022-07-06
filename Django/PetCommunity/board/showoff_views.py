@@ -40,3 +40,4 @@ def showoffCreate(request) :
 def showoffDelete(request, id) :
         Post.objects.filter(pk=id).delete()
         return redirect('showoffAll')
+
