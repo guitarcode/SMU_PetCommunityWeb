@@ -1,0 +1,93 @@
+
+#pageNum{
+    color: #3764BB;
+    font-weight: bold;
+    font-size: x-large;
+    position: absolute;
+    top: 870px;
+    left: 870px;
+}
+#NewPostSign, #NewPostSign1{
+    font-size: x-large;
+    color:#BB3737;
+    text-shadow: 2px 2px 3px gray;
+
+}
+#shareBtn{
+    position: absolute;
+    top: 170px;
+    left: 1410px;
+}
+#HotPostSign{
+    font-size: x-large;
+    color:#BB3737;
+    text-shadow: 2px 2px 3px gray;
+
+}
+
+
+/* 테이블로 게시판 만들기 */
+table {
+    border-collapse: collapse;
+    position:absolute;
+    top: 200px;
+    left: 450px;
+
+}
+
+caption {
+    display: none;
+}
+
+table a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.board_list_wrap {
+    padding: 50px;
+}
+
+.board_list {
+    width: 900px;
+    height: 550px;
+    border-bottom: 4px solid #2C67C1;
+}
+#shareInfoTxt{
+    border-bottom: 4px solid #2C67C1;
+}
+.board_list th,
+.board_list td {
+    padding: 10px;
+    font-size: 14px;
+    font-size: x-large;
+    color: #2C67C1;
+}
+
+.board_list td {
+    text-align: center;
+}
+
+.board_list .tit {
+    text-align: left;
+}
+
+.board_list .tit:hover {
+    text-decoration: underline;
+}
+
+.board_list_wrap .paging {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0;
+}
+.board_list_wrap .paging a {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 100px;
+    font-size: 12px;
+}
+.board_list_wrap .paging a:first-child {
+    margin-left: 0;
+}

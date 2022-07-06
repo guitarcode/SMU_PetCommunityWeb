@@ -1,0 +1,246 @@
+.navbar-brand {
+    width: 200px; /* 정렬하려는 요소의 넓이를 반드시 지정 이미지 200px니까 200px로 */
+    margin: 0 auto;
+}
+.container{
+    border-bottom: 4px solid #3764BB;
+}
+.high{
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: row;
+
+    height: 40vh;    
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+.profilemenu1, .profilemenu2{
+    display: flex;
+    margin-left: 110px; 
+}
+.message{
+    margin: auto;
+}
+.profileimg{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-left: 110px;
+}
+.nickname {
+    display: flex;
+    margin:auto;
+    flex-direction: row;
+    background-color: aquamarine;
+}
+.logout{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 10px;
+    background-color: #2C67C1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: none;
+}
+/* .dropdown{
+    display: flex;
+    justify-items: center;
+    margin-left: 110px;
+} */
+.list-group{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 110px;
+}
+.list-group-item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    color: #3764BB;
+} 
+.writebtn, .seemore{
+    color: white;
+    margin-top: 10px;
+    background-color: #2C67C1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: none;
+} 
+
+#pf1 img{
+    width: 20%;
+    height: 30vh;
+    border-radius: 25px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+#profileImgBtn{
+    width: 30vw;
+    position: absolute;
+    top: 52%;
+    left: 30%;
+}
+
+.tearBox{
+    border-radius: 25px;
+    width: 20%;
+    height: 7vh;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    box-shadow: 5px 3px 3px rgb(147, 146, 146);
+}
+
+.set1{
+    width: 40vw;
+    position:absolute;
+    top: 15%;
+    left: 53%;
+}
+
+.set1 div{
+    padding-bottom: 0.5%;
+    border-bottom: 4px solid #2C67C1;
+    
+}
+.set1 input{
+    width: 30vw;
+    margin-top: 4%;
+    margin-right: 2%;
+}
+
+.set1 label{
+    font-size: 1.5vw;
+    color: #2C67C1;
+    margin-left: 2%;
+}
+
+.set2{
+    width: 40vw;
+    position:absolute;
+    top: 40%;
+    left: 53%;
+}
+
+.set2 div{
+    padding-bottom: 0.5%;
+    border-bottom: 4px solid #2C67C1;
+    
+}
+.set2 input{
+    width: 30vw;
+    margin-top: 4%;
+    margin-right: 2%;
+}
+
+.set2 label{
+    font-size: 1.5vw;
+    color: #2C67C1;
+    margin-left: 2%;
+}
+
+
+.set3{
+    width: 40vw;
+    position:absolute;
+    top: 60%;
+    left: 53%;
+}
+
+.set3 div{
+    padding-bottom: 0.5%;
+    border-bottom: 4px solid #2C67C1;
+    
+}
+.set3 label{
+    font-size: 1.5vw;
+    color: #2C67C1;
+    margin-left: 2%;
+}
+
+
+.set3 button{
+    margin-top: 4%;
+    height:7vh;
+    width: 10vw;
+    
+    font-size:1.2vw;
+    border: none;
+    border-radius: 50px; 
+    background-color: white;
+    color:rgb(40, 71, 155);
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    box-shadow: 5px 3px 3px rgb(82, 82, 82);
+}
+.set3 button:hover {
+    background-color: rgb(243, 246, 255);
+}
+
+#tear label{
+    color:rgb(40, 71, 155);
+    font-weight: bold;
+    
+}
+
+.point-detail{
+    display: flex;
+    
+}
+.pointgrade-ex{
+    margin:auto;
+    margin-left: 4%;
+}
+
+#shop{
+    display:flex;
+}
+
+input{
+    border-radius: 50px;
+    border: none;
+    width: 10vw;
+    height: 8vh;
+    text-align: center;
+
+    box-shadow: 3px 5px 7px rgb(138, 137, 137);
+}
+
+/* 인풋창 클릭시 border X */
+input:focus {
+    outline: none;
+}
+
+
+.button-start {
+    height:5vh;
+    width: 10vw;
+    
+    font-size:1.2vw;
+    border: none;
+    border-radius: 50px; 
+    background-color: rgb(40, 71, 155);
+    color:white;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    box-shadow: 5px 3px 3px rgb(82, 82, 82);
+}
+.button-start:hover {
+    background-color: rgb(0, 42, 156);
+}

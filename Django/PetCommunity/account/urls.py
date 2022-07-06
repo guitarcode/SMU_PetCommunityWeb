@@ -15,10 +15,8 @@ urlpatterns = [
     path('find1/', views.find1),
     path('findID/', views.findID, name='findID'),
     path('findPW/', views.findPW, name='findPW'),
-    path('main/' ,views.main, name='main' ),
-    path('set/' ,views.set, name='set'),
-    path('profilepage/' ,views.profilepage, name='profilepage'),
-    path('write/' ,views.write, name="write"),
+  #  path('main/' ,views.main, name='main' ),
+
 
     # 비밀번호 찾기 URL
     # path('password_reset/', auth_views.PasswordResetView.as_view(), name="password_reset"),

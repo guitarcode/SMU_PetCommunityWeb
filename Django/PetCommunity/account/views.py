@@ -126,18 +126,3 @@ def findID(request):
     return render(request, 'account/find.html')
 
 
-def main(request):
-    memberName = request.user.memberName
-    return render(request, 'account/main.html', {'memberName': memberName})
-
-
-def set(request):
-    return render(request, 'account/set.html')
-
-
-def profilepage(request):
-    return render(request, 'account/profile.html')
-
-
-def write(request):
-    return render(request, 'account/write.html')

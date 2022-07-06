@@ -1,0 +1,132 @@
+<html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- 부트스트랩 사용하기 위함 -->
+    <link rel="stylesheet" href="{% static 'board/css/infoShare.css' %}">
+    <link rel="stylesheet" href="{% static 'board/css/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'board/bootstrap/css/bootstrap.css' %}">
+</head>
+<body>
+     <nav class="navbar navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="/main"> <!-- 로고 눌렀을 때 메인페이지로 -->
+            <img src="{% static 'images/logo.png' %}" alt="로고이미지" width="200" height="70">
+          </a>
+        </div>
+      </nav>
+      <!-- 링크형식으로  list-group-item-action-->
+      <div class="high">
+      <section class="profile">
+      <img src="{% static 'images/logo.png' %}" class="profileimg" alt="프로필이미지">
+      <div class="profilemenu1">
+      <p class="nickname"> {{ memberName }} </p>
+      <button type="button" class="logout">로그아웃</button>
+      </div>
+      <div class="profilemenu2">
+      <p class="message">한줄 메세지한줄 메세지한줄 메세지</p>
+      <a class="setting" href="/set"> <!-- 눌렀을 때 설정페이지로 -->
+        <img src="{% static 'images/setting.png' %}" alt="로고이미지" width="30" height="30">
+      </a>
+      </div>
+      <div class="list-group">
+        <button type="button" class="writebtn" onclick="location.href='/write'">글 작성하기</button>
+        <a href="#" class="list-group-item">자랑하기</a>
+        <a href="#" class="list-group-item">챌린지</a>
+        <a href="#" class="list-group-item">상점</a>
+        <a href="#" class="list-group-item">자유게시판</a>
+        <a href="/infoShare" class="list-group-item">정보 나눔</a>
+        <!--<button type="button" class="writebtn" onclick="location.href='/infoShare'">정보 나눔</button>-->
+        <button type="button" class="seemore">SEE MORE</button>
+        <!-- SEE MORE 있어야 되나?  -->
+      </div>
+      </section>
+      </div>
+
+    <section id="infoShareContent">
+        
+        <div class="board_list_wrap">
+            <table class="board_list">
+                <caption>게시판 목록</caption>
+                <thead id="shareInfoTxt">
+                    <tr>
+                        <th>NUM</th>
+                        <th>TITLE</th>
+                        <th>USER</th>
+                        <th>DATE</th>
+                        <th>PV</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6</td>
+                        <td class="tit">
+                            <a href="#"> <label id="NewPostSign">N</label> 소동물 응급병원 리스트</a>
+                        </td>
+                        <td>햄쥡사</td>
+                        <td>22.07.07</td>
+                        <td>4625</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="tit">
+                            <a href="#">냥이 사료 테스트 목록</a>
+                        </td>
+                        <td>냥냥</td>
+                        <td>22.07.05</td>
+                        <td>2225</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="tit">
+                            <a href="#">마약방석 추천템!</a>
+                        </td>
+                        <td>포근해</td>
+                        <td>22.06.24</td>
+                        <td>5255</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="tit">
+                            <a href="#">강아지 아이스크림 추천</a>
+                        </td>
+                        <td>멍멍</td>
+                        <td>22.06.05</td>
+                        <td>9856</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="tit">
+                            <a href="#">애견 동반 가능 카페</a>
+                        </td>
+                        <td>히히</td>
+                        <td>22.06.01</td>
+                        <td>5856</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td class="tit">
+                            <a href="#">애견 호텔 공유</a>
+                        </td>
+                        <td>안뇽</td>
+                        <td>22.05.05</td>
+                        <td>19856</td>
+                    </tr>
+                </tbody>
+            </table>
+        <label id="pageNum">1 2 3 4 5 6 7 8...</label>
+
+
+
+        <img id="shareBtn" src="" alt="공유하기">
+
+        <!-- 메인콘텐츠(제목 날짜 등등) 은 각 html태그에 margin값 수동으로 줬어요,, 
+        자유게시판 진행하실때 다 일일히 바꿔주셔야 할겁니다!! -->
+
+    </section>
+</body>
+</html>
