@@ -1,6 +1,8 @@
 # 자랑하기 게시판의 views
-from models import Post,Comment
+from .models import Post,Comment,PostImage
+from django.forms import modelformset_factory
 from django.shortcuts import render, redirect, get_object_or_404
+from .forms import NoneTitleForm, ImageForm
 
 def showoffAll(request) :
     showoffPostList = Post.objects.filter(type = 1).order_by('-date')
@@ -13,6 +15,14 @@ def showoffDetail(request, id) :
     return render(request,'post_detail.html',{'showoffPost':showoffPost,'comments':comments})
 
 def showoffCreate(request) :
-    if request.method == 'GET' :
+    ImageFormSet = modelformset_factory(PostImage,form=ImageForm, extra=3)
+    if request.method == 'GET':
+        form = NoneTitleForm()
+        formset = ImageFormSet(PostImage.objects.none())
+    else :
+
+
+
+    return
 
 
