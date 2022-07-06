@@ -1,0 +1,19 @@
+.Fix-Content div label{
+    font-size: x-large;
+    color: rgb(40, 71, 155);
+}
+
+.Fix-Content div input{
+    width: 30%;
+}
+
+.Fix-Content{
+    text-align: center;
+}
+.Info-Fix-Btngroup button{
+    height:8vh;
+    width: 25%;
+}
+.Info-Fix-Btngroup{
+    text-align: center;
+}
