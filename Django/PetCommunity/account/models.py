@@ -12,13 +12,13 @@ class Member(AbstractUser):
     memberName = models.CharField(max_length=30, unique=True, default = '')
     name = models.CharField(max_length=30)
     # 정규식으로 유효성 검증
-    phoneNumber = models.CharField(validators = [validate_email], max_length = 11, unique = True)
+    phoneNumber = models.CharField(validators = [validate_password], max_length = 11, unique = True)
     GENDER_CHOICES = (
         (0, 'Female'),
         (1, 'Male')
     )
     gender = models.SmallIntegerField(choices = GENDER_CHOICES)
-    email = models.EmailField(validators = [validate_password], max_length=128)
+    email = models.EmailField(validators = [validate_email], max_length=128)
     address = models.CharField(max_length=200)
     point = models.IntegerField(blank=True)
     #이모티콘 외래키 참조

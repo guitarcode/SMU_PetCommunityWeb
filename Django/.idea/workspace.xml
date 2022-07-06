@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="245a8b65-49a7-4abb-8d27-961effd35b93" name="Changes" comment="" />
+    <list default="true" id="245a8b65-49a7-4abb-8d27-961effd35b93" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetCommunity/account/migrations/0004_alter_member_gender_alter_member_id_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetCommunity/account/migrations/0005_alter_member_address_alter_member_email_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetCommunity/account/migrations/0006_rename_user_profile_memberid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetCommunity/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/PetCommunity/account/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetCommunity/account/templates/account/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/PetCommunity/account/templates/account/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetCommunity/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PetCommunity/account/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetCommunity/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/PetCommunity/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,10 +44,22 @@
       <workItem from="1656821204594" duration="382000" />
       <workItem from="1656822151425" duration="11000" />
       <workItem from="1657029756701" duration="856000" />
+      <workItem from="1657126213994" duration="943000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

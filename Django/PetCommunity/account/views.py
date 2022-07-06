@@ -18,7 +18,7 @@ def find(request):
 
 
 
-def findPw(request):
+def findPW(request):
     return render(request, 'account/findPw.html')
 
 
@@ -33,10 +33,10 @@ def signup(request):
             password = request.POST['password']
             memberName = request.POST['memberName']
             phoneNumber = request.POST['phoneNumber']
-            gender = request.POST['gender']
+            #gender = request.POST['gender']
             email = request.POST['email']
             address = request.POST['address']
-            newMember = Member.objects.create_user(memberId, password, memberName, phoneNumber, gender, email, address)
+            newMember = Member.objects.create_user(memberId, password, memberName, phoneNumber,  email, address)
 
             auth.login(request, newMember)
             return redirect('showstart')
