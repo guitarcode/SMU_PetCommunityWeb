@@ -1,7 +1,10 @@
 from django.db import models
 
 class Hashtag(models.Model):
-    hashtag = models.CharField
+    hashtag = models.CharField(max_length=30)
+    def __str__(self):
+        return self.hashtag
+
 
 #이미지를 위해 pip로 pillow를 설치해줘야함
 #게시글
@@ -27,16 +30,13 @@ class Post(models.Model):
     #답변 게시글, 답변이 있는 경우 질문 글은 삭제 불가능
     answerPost = models.ForeignKey('self', on_delete = models.PROTECT, null = True)
 
-    def __str__(self):
-        return self.title
+    def __int__(self):
+        return self.pk
 
-def get_image_filename(instance, filename):
-    id = instance.post.id
-    return "post_images/%s-%s" %(id,filename)
 
 class PostImage(models.Model):
-    post = models.ForeignKey(Post, on_delete=models.CASCADE),
-    image = models.ImageField(upload_to = get_image_filename)
+    post = models.ForeignKey(Post, on_delete= models.CASCADE)
+    image = models.ImageField(upload_to = 'postImage')
 
 #좋아요
 class Recommand(models.Model):

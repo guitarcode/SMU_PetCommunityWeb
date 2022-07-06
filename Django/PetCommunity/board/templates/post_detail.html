@@ -1,0 +1,11 @@
+{{showoffPost.content}}
+{{showoffPost.writer}}
+{%for comment in comments%}
+    {{comment}}
+{% endfor %}
+{%for image in images %}
+    <img src="{{image.image.url}}" alt="" height="600"/>
+{% endfor%}
+{%for tag in tags %}
+    {{tag}}
+{% endfor%}
