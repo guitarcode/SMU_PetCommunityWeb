@@ -1,0 +1,45 @@
+h4{
+    color: #3764BB;
+    position:absoulte;
+    height:30px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-top:10%;
+    margin-right:10%;
+}
+p{
+    color:#3764BB;
+    font-size:17px;
+    line-height:17px;
+}
+#ment{
+    line-height:18px;
+    text-align: center;
+    width:550px; height:18px;
+    font-size:18px;
+    margin-left:37%;
+
+}
+
+h6{
+    color:#3764BB;
+
+}
+
+#join{
+    height: 38px;
+    width: 200px;
+    left: 103px;
+    top: 4879px;
+    border-radius: 30px;
+    color:white;
+    background-color: #3764BB;
+    margin-top:10%;
+
+}
+
+
+h4{
+    margin-left:10%;
+}

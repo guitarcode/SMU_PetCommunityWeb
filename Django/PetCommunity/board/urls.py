@@ -1,5 +1,6 @@
 from django.urls import path, include
 from . import showoff_views,qna_views
+import account
 
 showoffpatterns = [
     path('',showoff_views.showoffAll, name='showoffAll'),
@@ -14,4 +15,5 @@ qnapatterns = [
 urlpatterns = [
     path('showoff/', include(showoffpatterns)),
     path('qna/', include(qnapatterns)),
+    path('account/', include(account.urls)),
 ]

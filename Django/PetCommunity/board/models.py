@@ -11,7 +11,7 @@ class Post(models.Model):
     content = models.TextField(blank = True, null = True)
     date = models.DateTimeField(auto_now_add=True)
     writer = models.ForeignKey('account.Member', on_delete= models.DO_NOTHING)
-    hashtag = models.ManyToManyField(Hashtag)
+    hashtag = models.ManyToManyField(Hashtag, null = True)
 
     #게시판 목록
     TYPE_CHOICES = [
@@ -25,7 +25,7 @@ class Post(models.Model):
     recommandCount = models.IntegerField(blank = True, default = 0)
 
     #답변 게시글, 답변이 있는 경우 질문 글은 삭제 불가능
-    answerPost = models.ForeignKey('self', on_delete = models.PROTECT)
+    answerPost = models.ForeignKey('self', on_delete = models.PROTECT, null = True)
 
     def __str__(self):
         return self.title
