@@ -14,15 +14,11 @@ def showoffDetail(request, id) :
 
     return render(request,'post_detail.html',{'showoffPost':showoffPost,'comments':comments})
 
-def showoffCreate(request) :
-    ImageFormSet = modelformset_factory(PostImage,form=ImageForm, extra=3)
-    if request.method == 'GET':
-        form = NoneTitleForm()
-        formset = ImageFormSet(PostImage.objects.none())
-    else :
-
-
-
-    return
+# def showoffCreate(request) :
+#     ImageFormSet = modelformset_factory(PostImage,form=ImageForm, extra=3)
+#     if request.method == 'GET':
+#         form = NoneTitleForm()
+#         formset = ImageFormSet(PostImage.objects.none())
+#     else :
 
 

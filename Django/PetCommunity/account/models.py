@@ -3,22 +3,22 @@ from tokenize import blank_re
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 from django.forms import CharField
-from django.core.validators import RegexValidator
 from django.conf import settings
+from account.validation import validate_email, validate_password
 
 class Member(AbstractUser):
-    memberID = models.CharField(max_length=30, primary_key=True)
+    memberId = models.CharField(max_length=30, unique=True, default='')
     password = models.CharField(max_length=100)
+    memberName = models.CharField(max_length=30, unique=True, default = '')
     name = models.CharField(max_length=30)
     # 정규식으로 유효성 검증
-    phoneNumberRegex = RegexValidator(regex = r'^01([0|1|6|7|8|9]?)-?([0-9]{3,4})-?([0-9]{4})$')
-    phoneNumber = models.CharField(validators = [phoneNumberRegex], max_length = 11, unique = True)
+    phoneNumber = models.CharField(validators = [validate_password], max_length = 11, unique = True)
     GENDER_CHOICES = (
         (0, 'Female'),
         (1, 'Male')
     )
     gender = models.SmallIntegerField(choices = GENDER_CHOICES)
-    email = models.EmailField(max_length=128)
+    email = models.EmailField(validators = [validate_password], max_length=128)
     address = models.CharField(max_length=200)
     point = models.IntegerField(blank=True)
     #이모티콘 외래키 참조
@@ -44,7 +44,7 @@ class Accuse(models.Model):
     #신고id : Model에서 자동으로 생성
     title = models.CharField(max_length=100)
     body = models.TextField()
-    accusedUser = models.ForeignKey(Member, on_delete=models.CASCADE)
+    accusedUser = models.ForeignKey(Member, related_name = 'accusedUsers', on_delete=models.CASCADE)
     #accusingUser
 
     def __str__(self):
@@ -54,4 +54,4 @@ class Suspend(models.Model):
     #정지처리id : Model에서 자동으로 생성
     date = models.DateTimeField(auto_now_add=True)
     cause = models.CharField(max_length=300)
-    suspendedUser = models.OneToOneField(Member, blank=True, null=True, on_delete=models.CASCADE)
+    suspendedUser = models.OneToOneField(Member, related_name = 'suspendedUsers', blank=True, null=True, on_delete=models.CASCADE)
