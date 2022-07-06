@@ -1,0 +1,83 @@
+<html>
+
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- 부트스트랩 사용하기 위함 -->
+    <link rel="stylesheet" href="{% static 'account/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'account/css/profile.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'account/bootstrap/css/bootstrap.css' %}">
+</head>
+<body>
+    <nav class="navbar navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="/main"> <!-- 로고 눌렀을 때 메인페이지로 -->
+            <img src="{% static 'images/logo.png' %}" alt="로고이미지" width="200px" height="5%">
+          </a>
+        </div>
+    </nav>
+      <!-- 링크형식으로  list-group-item-action-->
+      <div class="high">
+      <section class="profile">
+      </div>
+      <div class="list-group">
+        <button type="button" class="writebtn">글 작성하기</button>
+        <a href="#" class="list-group-item">자랑하기</a>
+        <a href="#" class="list-group-item">챌린지</a>
+        <a href="./shop.html" class="list-group-item">상점</a>
+        <a href="#" class="list-group-item">자유게시판</a>
+        <a href="#" class="list-group-item">정보나눔</a>
+        <button type="button" class="seemore">SEE MORE</button>
+        <!-- SEE MORE 있어야 되나?  -->
+      </div>
+      </section>
+      </div>
+
+      <section id="pf1">
+            <img src="{% static 'images/1.jpg' %}" alt="프로필사진">
+      </section>
+
+      <section id="profileImgBtn">
+        <button type="button" class="button-start" style=" width: 8vw;">삭제</button>
+        <button type="button" class="button-start" style=" width: 10vw; margin-left: 5%;">업로드</button>
+      </section>
+
+      <section id="tear">
+            <div class="tearBox">
+                <img src="{% static 'images/1.jpg' %}" alt="" style="width:4vw; height:7vh; border-radius: 50%;">
+                <label>아이언</label>
+                /
+                <label>lion@likelion.org</label>
+            </div>
+      </section>
+      
+      <section class="set1"> 
+        <div>
+            <label>별명</label>
+        </div>
+        <input type="text">
+        <button type="button" class="button-start" style=" width: 8vw;">바꾸기</button>
+      </section>
+      <section class="set2"> 
+        <div>
+            <label>한 줄 메세지</label>
+        </div>
+        <input type="text">
+        <button type="button" class="button-start" style=" width: 8vw;">바꾸기</button>
+      </section>
+      <section class="set3"> 
+        <div>
+            <label>기타</label>
+        </div>
+        <button type="button" class="button-start" style=" width: 30vw;">이모티콘 업로드</button>
+      </section>
+
+
+
+
+</body>
+</html>

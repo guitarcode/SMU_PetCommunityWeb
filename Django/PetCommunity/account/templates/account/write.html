@@ -1,0 +1,101 @@
+<html>
+
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- 부트스트랩 사용하기 위함 -->
+    <link rel="stylesheet" href="{% static 'account/css/write.css' %}">
+    <link rel="stylesheet" href="{% static 'account/css/profile.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'account/bootstrap/css/bootstrap.css' %}">
+</head>
+<body>
+    <nav class="navbar navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="/main"> <!-- 로고 눌렀을 때 메인페이지로 -->
+            <img src="{% static 'images/logo.png' %}" alt="로고이미지" width="200" height="70">
+          </a>
+        </div>
+      </nav>
+      <!-- 링크형식으로  list-group-item-action-->
+      <div class="high">
+        <section class="profile">
+        <img src="{% static 'images/1.jpg' %}" class="profileimg" alt="프로필이미지">
+        <div class="profilemenu1">
+        <p class="nickname"> 닉네임 </p>
+        <button type="button" class="logout">로그아웃</button>
+        </div>
+        <div class="profilemenu2">
+        <p class="message">한줄 메세지한줄 메세지한줄 메세지</p>
+        <a class="setting" href="#"> <!-- 눌렀을 때 설정페이지로 -->
+        <img src="{% static 'images/setting.png' %}" alt="로고이미지" width="30" height="30">
+      </a>  
+      </div>
+      <div class="list-group">
+          <button type="button" class="writebtn" onclick="location.href='/write'">글 작성하기</button>
+        <a href="#" class="list-group-item">자랑하기</a>
+        <a href="#" class="list-group-item">챌린지</a>
+        <a href="./shop.html" class="list-group-item">상점</a>
+        <a href="#" class="list-group-item">자유게시판</a>
+        <a href="#" class="list-group-item">정보나눔</a>
+        <button type="button" class="seemore">SEE MORE</button>
+        <!-- SEE MORE 있어야 되나?  -->
+      </div>
+      </section>
+      </div>
+
+      <section class="write-set1"> 
+        <div>
+            <label>TITLE</label>
+        </div>
+        <input type="text">
+        <button type="button" class="button-start" style=" width: 8vw;">지우기</button>
+      </section>
+      <section class="write-set2"> 
+        <div>
+            <label>IMAGES / VIDEOS</label>
+        </div>
+        <input type="text">
+        <button type="button" class="button-start" style=" width: 8vw;">첨부</button>
+      </section>
+      <section class="write-set3"> 
+        <div>
+            <label>TEXT</label>
+        </div>
+        <input type="text" placeholder="300자 이내의 텍스트를 자유롭게 입력하세요 :)">
+        <button type="button" class="button-start" style=" width: 8vw;">SEND</button>
+      </section>
+      
+      <section id="comment">
+            <div class="commetImgSet">
+                <img src="" alt="like">
+                <img src="" alt="comment">
+                <img src="" alt="report">
+            </div>
+            <form action="" class="commentSet">
+                <div id="hashtag">
+                    <label style="color:#2C67C1; font-size: large; font-weight: bold; margin-top: 10px;">#냥이#댕이#멍멍이#사자</label>
+                </div>
+                
+                <div class="squareBox">
+                    <label class="userName">댕냥 최고</label>
+                </div>
+                
+                <input id="commentInput" type="text" style=" width: 530px; height:80px; border-radius: 0%; margin-top: 20px;" >
+                <button type="button" class="button-start" style=" width: 8vw; margin-left: 10px;">SEND</button>
+            </form>
+      </section>
+
+      <!-- addPhoto 부분의 css는 전부 html태그 안에서 진행했습니드아ㅏ 참고해주세여! -->
+      <section id="addPhoto">
+            <label style="position: absolute; top: 200px; left: 1300px; color: #2C67C1; font-size: x-large; font-weight: bold;">첨부파일 미리보기</label>
+            <img src="{% static 'images/1.jpg' %}" alt="미리보기" style="width: 350px; height: 350px; border-radius: 15px; position: absolute; top: 250px; left: 1300px;">
+            <button type="button" class="button-start" style=" width: 5vw; position: absolute; top: 620px; left: 1550px;">닫기</button>
+      </section>
+
+
+
+</body>
+</html>

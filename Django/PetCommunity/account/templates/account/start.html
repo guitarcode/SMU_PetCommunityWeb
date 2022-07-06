@@ -1,4 +1,5 @@
 <html>
+
 {% load static %}
 <html lang="en">
 <head>
@@ -39,10 +40,13 @@
     </section>
 
     <section class="start-btn mt-3">
-        <div><button type="button" class="button-start mt-3" onclick="location.href='account/signup'">회원가입하러가기</button>
+        <div><button type="button" class="button-start mt-3" onclick="location.href='/signup'">회원가입하러가기</button>
         </div>
         <div><button type="button" class="button-start mt-3" onclick="location.href='/login'">로그인하러가기</button></div>
     </section>
+    {% if user.is_authenticated %}
+        <h1>로그인되어있습니다</h1>
+    {% endif %}
 
     <script type="text/javascript" src="/static/js/start.js"></script>
 </body>

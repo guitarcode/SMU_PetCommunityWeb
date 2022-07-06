@@ -32,15 +32,18 @@
         <img src="{% static 'images/logo.png' %}"  alt="logo-img">
     </div>
 
-    <form action="" class="Login-Content" style="margin-top: 1%;">
+    <form method="post" action="" class="Login-Content" style="margin-top: 1%;">
+         {% csrf_token %}
         <div id="Login-IdInput">
             <label for="IdInput" class="Id-txt">ID</label>
-            <input type="text" id="IdInput" class="ml-4 mt-5" style="margin-right: 2%;">
+            <input type="text" name="memberId"id="IdInput" class="ml-4 mt-5" style="margin-right: 2%;">
         </div>
         <div id="Login-PwInput" class="mt-1">
             <label for="PwInput" class="Pw-txt">PW</label>
-            <input type="password" id="PwInput" class="ml-3 mt-4" style="margin-right: 2%;">
+            <input type="password" name="password" id="PwInput" class="ml-3 mt-4" style="margin-right: 2%;">
         </div>
+
+        <button type = "submit" class = "button-start">로그인</button>
     </form>
 
 
@@ -50,11 +53,11 @@
         <label for="" class="Login-Signin" onclick="location.href='/signup'">회원가입하기</label>
     </div>
 
-    <form method="post" id="LoginBtn" action="" style="text-align: center;">
-        {% csrf_token %}
-        <button type = "submit" class = "button-start">로그인</button>
-        <!--<button onclick="location.href='/main'" type="button" class="button-start" style="width: 10%; height: 5vh; margin-top: 1%;">LOGIN</button>-->
-    </form>
+    <!--<form method="post" id="LoginBtn" action="" style="text-align: center;">
+       &lt;!&ndash; {% csrf_token %}
+        <button type = "submit" class = "button-start">로그인</button>&ndash;&gt;
+        &lt;!&ndash;<button onclick="location.href='/main'" type="button" class="button-start" style="width: 10%; height: 5vh; margin-top: 1%;">LOGIN</button>&ndash;&gt;
+    </form>-->
     <!-- 간편로그인 제작필요-->
     <section class="simpleLogin">
         <label >간편로그인</label>

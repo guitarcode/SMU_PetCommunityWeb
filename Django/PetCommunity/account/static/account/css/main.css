@@ -25,6 +25,7 @@ navbar-brand {
 }
 .profileimg{
     display: flex;
+    text-align: center;
     width: 200px;
     height: 200px;
     margin-left: 110px;

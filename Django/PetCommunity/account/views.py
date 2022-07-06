@@ -39,7 +39,7 @@ def signup(request):
             newMember = Member.objects.create_user( username,password , email, memberId=memberId, phoneNumber=phoneNumber, address=address)
 
             auth.login(request, newMember)
-            return redirect('showstart')
+            return redirect('/main')
     return render(request, 'account/signup.html')
 
 # 로그인
@@ -47,12 +47,14 @@ def login(request):
     if request.method == 'POST':
         #memberId = request.POST["memberId"]
         memberId = request.POST.get("memberId")
+        print(memberId)
         password = request.POST.get("password")
+        print(password)
         user = auth.authenticate(request, username=memberId, password=password)
 
         if user is not None:
             auth.login(request, user)
-            return redirect('showstart')
+            return redirect('/main')
         else:
             return render(request, 'account/bad_login.html')
     else:
@@ -108,20 +110,34 @@ def findID(request):
             email = request.POST['email']
             try:
                 member = Member.objects.get(email=email)
+                memberId = request.POST.get('memberId')
                 if member is not None:
-                    template = render_to_string('email_template.html', {'memberName':memberName, 'memberId':Member.memberId})
-                    methodEmail = EmailMessage(
+                    template = render_to_string('email_template.html', {'memberName': memberName, 'memberId': memberId})
+                    method_email = EmailMessage(
                         '우애귀 아이디 찾기 메일을 전송합니다.',
                         template,
                         settings.EMAIL_HOST_USER,
                         [email],
                     )
-                    methodEmail.send(fail_silently=False)
-                    return render(request, 'account/sendID.html')
+                    method_email.send(fail_silently=False)
+                    return render(request, 'account/findId.html')
             except:
                 messages.info(request, "해당 이메일을 가진 회원이 존재하지 않습니다")
-    return render(request, 'account/findID.html')
+    return render(request, 'account/find.html')
 
 
 def main(request):
-    return render(request, 'account/main.html')
+    memberName = request.user.memberName
+    return render(request, 'account/main.html', {'memberName': memberName})
+
+
+def set(request):
+    return render(request, 'account/set.html')
+
+
+def profilepage(request):
+    return render(request, 'account/profile.html')
+
+
+def write(request):
+    return render(request, 'account/write.html')
