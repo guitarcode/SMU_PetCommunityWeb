@@ -21,8 +21,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="CSS File" />
         <option value="HTML File" />
+=======
+        <option value="Python Script" />
+>>>>>>> 811dbc479ed93b1007d2ded5ccf5694a7cabee6d
       </list>
     </option>
   </component>
@@ -56,6 +60,7 @@
       <workItem from="1656821204594" duration="382000" />
       <workItem from="1656822151425" duration="11000" />
       <workItem from="1657029756701" duration="856000" />
+<<<<<<< HEAD
       <workItem from="1657126213994" duration="2388000" />
     </task>
     <task id="LOCAL-00001" summary="singup name 이름 views에 맞게 수정">
@@ -64,6 +69,9 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1657127350190</updated>
+=======
+      <workItem from="1657126039399" duration="1449000" />
+>>>>>>> 811dbc479ed93b1007d2ded5ccf5694a7cabee6d
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -82,8 +90,11 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="singup name 이름 views에 맞게 수정" />
     <option name="LAST_COMMIT_MESSAGE" value="singup name 이름 views에 맞게 수정" />
   </component>
+=======
+>>>>>>> 811dbc479ed93b1007d2ded5ccf5694a7cabee6d
 </project>

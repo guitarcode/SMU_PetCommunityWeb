@@ -10,4 +10,4 @@ class ProfileInline(admin.StackedInline):
 class CustomUserAdmin(UserAdmin):
     inlines = (ProfileInline,)
 
-admin.site.register(Member, CustomUserAdmin)
+admin.site.register(Member)
