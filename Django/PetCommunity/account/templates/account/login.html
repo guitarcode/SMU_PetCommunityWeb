@@ -50,8 +50,10 @@
         <label for="" class="Login-Signin" onclick="location.href='/signup'">회원가입하기</label>
     </div>
 
-    <form id="LoginBtn" action="" style="text-align: center;">
-        <button onclick="location.href='/main'" type="button" class="button-start" style="width: 10%; height: 5vh; margin-top: 1%;">LOGIN</button>
+    <form method="post" id="LoginBtn" action="" style="text-align: center;">
+        {% csrf_token %}
+        <button type = "submit" class = "button-start">로그인</button>
+        <!--<button onclick="location.href='/main'" type="button" class="button-start" style="width: 10%; height: 5vh; margin-top: 1%;">LOGIN</button>-->
     </form>
     <!-- 간편로그인 제작필요-->
     <section class="simpleLogin">

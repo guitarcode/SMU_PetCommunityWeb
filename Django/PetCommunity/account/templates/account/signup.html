@@ -25,7 +25,8 @@
         <img src="{% static 'images/logo.png' %}" alt="logo-img">
     </section>
 
-    <form action="" class="signIn-Content">
+    <form method="post" action="" class="signIn-Content">
+        {% csrf_token %}
         <div>
             <label for="NameInput">이름</label>
             <input type="text" id="NameInput" name="memberName" class="ml-4 mt-4">
@@ -58,11 +59,17 @@
             <label for="RecommenderInput">추천인ID</label>
             <input type="text" id="RecommenderInput" name="RecommenderInput" class="ml-4 mt-4 mr-5">
         </div>-->
-    </form>
-
     <section class="signIn-Btngroup mt-5">
         <button type="button" class="button-start mt-3" onclick="location.href='/'">취소</button>
-        <button type="button" class="button-start mt-3 ml-5" onclick="location.href='/'">회원가입</button>
+        <!--<button type="button" class="button-start mt-3 ml-5" onclick="location.href='/'">회원가입</button>-->
+        <button type = "submit" class = "button-start mt-3 ml-5">회원가입</button>
     </section>
+    </form>
+
+    <!--<section class="signIn-Btngroup mt-5">
+        <button type="button" class="button-start mt-3" onclick="location.href='/'">취소</button>
+        <button type="button" class="button-start mt-3 ml-5" onclick="location.href='/'">회원가입</button>
+        <input type="submit" class="btn btn-primary" value="Sign Up">
+    </section>-->
 </body>
 </html>

@@ -31,12 +31,12 @@ def signup(request):
         if request.POST['password'] == request.POST['repeat']:
             memberId = request.POST['memberId']
             password = request.POST['password']
-            memberName = request.POST['memberName']
+            username = request.POST['memberName']
             phoneNumber = request.POST['phoneNumber']
             #gender = request.POST['gender']
             email = request.POST['email']
             address = request.POST['address']
-            newMember = Member.objects.create_user(memberId, password, memberName, phoneNumber,  email, address)
+            newMember = Member.objects.create_user( username,password , email, memberId=memberId, phoneNumber=phoneNumber, address=address)
 
             auth.login(request, newMember)
             return redirect('showstart')
@@ -45,15 +45,16 @@ def signup(request):
 # 로그인
 def login(request):
     if request.method == 'POST':
-        memberId = request.POST["memberId"]
-        password = request.POST["password"]
+        #memberId = request.POST["memberId"]
+        memberId = request.POST.get("memberId")
+        password = request.POST.get("password")
         user = auth.authenticate(request, username=memberId, password=password)
 
         if user is not None:
             auth.login(request, user)
             return redirect('showstart')
         else:
-            return render(request, 'account/ bad_login.html')
+            return render(request, 'account/bad_login.html')
     else:
         return render(request, 'account/login.html')
 
