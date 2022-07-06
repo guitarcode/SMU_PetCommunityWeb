@@ -1,7 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1f28542-b3c3-4bc0-ab00-933a36b00a46" name="변경" comment="" />
+    <list default="true" id="d1f28542-b3c3-4bc0-ab00-933a36b00a46" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/board/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/bin/Activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/bin/Activate.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/bin/django-admin" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/bin/django-admin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/bin/easy_install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/bin/easy_install-3.8" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/bin/easy_install-3.8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/bin/pip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/bin/pip3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/bin/pip3.10" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/bin/pip3.10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/bin/pip3.8" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/bin/pip3.8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/bin/python" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/bin/python" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/bin/python3" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/bin/python3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/bin/sqlformat" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/bin/sqlformat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Django-4.0.5.dist-info/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Django-4.0.5.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Django-4.0.5.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Django-4.0.5.dist-info/LICENSE.python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Django-4.0.5.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Django-4.0.5.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Django-4.0.5.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Django-4.0.5.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Django-4.0.5.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Django-4.0.5.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libXau.6.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libXau.6.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libfreetype.6.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libfreetype.6.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libharfbuzz.0.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libharfbuzz.0.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/liblcms2.2.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/liblcms2.2.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/liblzma.5.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/liblzma.5.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libopenjp2.2.5.0.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libopenjp2.2.5.0.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libpng16.16.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libpng16.16.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libtiff.5.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libtiff.5.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libwebp.7.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libwebp.7.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libwebpdemux.2.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libwebpdemux.2.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libwebpmux.3.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libwebpmux.3.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libxcb.1.1.0.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libxcb.1.1.0.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libz.1.2.12.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/.dylibs/libz.1.2.12.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/BlpImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/BlpImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/BmpImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/BmpImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/DcxImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/DcxImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/EpsImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/EpsImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/FitsStubImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/FitsStubImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/FliImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/FliImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/FpxImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/FpxImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/FtexImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/FtexImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/GdImageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/GdImageFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/GifImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/GifImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/GribStubImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/GribStubImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/Image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageChops.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageChops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageCms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageCms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageColor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageColor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageDraw.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageDraw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageDraw2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageDraw2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageFilter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageFilter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageFont.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageFont.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageGrab.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageGrab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageMorph.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageMorph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImagePalette.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImagePalette.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageQt.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageQt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageShow.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageShow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageStat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageStat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageTk.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/ImageTk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/Jpeg2KImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/Jpeg2KImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/JpegImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/JpegImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/JpegPresets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/JpegPresets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/MicImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/MicImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/MpoImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/MpoImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PaletteFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PaletteFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PcfFontFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PcfFontFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PcxImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PcxImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PdfImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PdfImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PdfParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PdfParser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PngImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PngImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PpmImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PpmImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PsdImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PsdImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PyAccess.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/PyAccess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/SgiImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/SgiImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/SpiderImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/SpiderImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/TiffImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/TiffImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/TiffTags.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/TiffTags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/WebPImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/WebPImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/XbmImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/XbmImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/XpmImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/XpmImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_imaging.cpython-38-darwin.so" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_imaging.cpython-38-darwin.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_imagingcms.cpython-38-darwin.so" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_imagingcms.cpython-38-darwin.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_imagingft.cpython-38-darwin.so" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_imagingft.cpython-38-darwin.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_imagingmath.cpython-38-darwin.so" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_imagingmath.cpython-38-darwin.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_imagingmorph.cpython-38-darwin.so" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_imagingmorph.cpython-38-darwin.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_imagingtk.cpython-38-darwin.so" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_imagingtk.cpython-38-darwin.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_tkinter_finder.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_tkinter_finder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_webp.cpython-38-darwin.so" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/PIL/_webp.cpython-38-darwin.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Pillow-9.1.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Pillow-9.1.1.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Pillow-9.1.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Pillow-9.1.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Pillow-9.1.1.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Pillow-9.1.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Pillow-9.1.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/Pillow-9.1.1.dist-info/zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/asgiref-3.5.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/asgiref-3.5.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/backports.zoneinfo-0.2.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/backports.zoneinfo-0.2.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/backports/zoneinfo/_czoneinfo.cpython-38-darwin.so" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/backports/zoneinfo/_czoneinfo.cpython-38-darwin.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/django/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/django/conf/project_template/manage.py-tpl" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/django/conf/project_template/manage.py-tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/django/contrib/admin/static/admin/fonts/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/django/contrib/admin/static/admin/fonts/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/django/db/backends/base/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/django/db/backends/base/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/django/db/models/functions/datetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/django/db/models/functions/datetime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/pip-22.1.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/pip-22.1.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/pkg_resources/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/pkg_resources/_vendor/pyparsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/setuptools-49.2.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/setuptools-49.2.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/setuptools/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/setuptools/_vendor/pyparsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/sqlparse-0.4.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../myvenv/lib/python3.8/site-packages/sqlparse-0.4.2.dist-info/RECORD" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
