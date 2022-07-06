@@ -1,0 +1,82 @@
+.challenge-group{
+ color: #3764BB;
+ margin-top:30%;
+ margin-left:35%;
+ margin-bottom:10%;
+}
+
+h3{
+
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom:10%;  
+    margin-top:15%; 
+}
+
+#comment1{
+
+    width:101px;
+    height:21px;
+    background-color: #FFFFFF;
+    box-shadow:0px 4px 4px rgba(0,0,0,0.25);
+    margin-bottom:4%;
+}
+#comment2{
+    width:302px;
+    height:21px;
+    background-color: #FFFFFF;
+    box-shadow:0px 4px 4px rgba(0,0,0,0.25);
+
+
+} 
+#send{
+    float:right;
+}
+
+#heart{
+    margin-left:55%;
+
+} 
+#result{
+    margin-left:55%;
+    font-size:"12px";
+}
+
+#send{
+    position:absolute;
+    width:63px;
+    height:24px;
+    background-color:#2C67C1;;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius:30px;
+    margin-left:12%;
+    margin-top:-2%;
+
+}
+
+#hashtag{
+    font-size:15px;
+    margin-left:60%;
+}
+
+.btn-like {
+    color: transparent;
+    text-shadow: 0 0 2px rgba(255,255,255,.7), 0 0 0 #000;
+    margin-left:60%;
+  }
+  .btn-like:hover {
+    text-shadow: 0 0 0 #ea0;
+  }
+  .btn-like.done {
+    color: inherit;
+    text-shadow: 0;
+  }
+  .btn-like.done:hover {
+    color: transparent;
+    text-shadow: 0 0 0 #777;
+  }
+
+
