@@ -14,7 +14,7 @@
 <body>
     <nav class="navbar navbar-light ">
         <div class="container">
-          <a class="navbar-brand" href="/PetCommunity/board/templates/board/write.html"> <!-- 로고 눌렀을 때 메인페이지로 -->
+          <a class="navbar-brand" href="/main"> <!-- 로고 눌렀을 때 메인페이지로 -->
             <img src="{% static 'images/logo.png' %}" alt="로고이미지" width="200" height="70">
           </a>
         </div>
@@ -31,7 +31,7 @@
         <p class="message">한줄 메세지한줄 메세지한줄 메세지</p>
         <a class="setting" href="#"> <!-- 눌렀을 때 설정페이지로 -->
         <img src="{% static 'images/setting.png' %}" alt="로고이미지" width="30" height="30">
-      </a>  
+      </a>
       </div>
       <div class="list-group">
           <button type="button" class="writebtn" onclick="location.href='/write'">글 작성하기</button>
@@ -39,35 +39,40 @@
         <a href="#" class="list-group-item">챌린지</a>
         <a href="./shop.html" class="list-group-item">상점</a>
         <a href="#" class="list-group-item">자유게시판</a>
-        <a href="#" class="list-group-item">정보나눔</a>
+        <a href="/infoShare" class="list-group-item">정보나눔</a>
         <button type="button" class="seemore">SEE MORE</button>
         <!-- SEE MORE 있어야 되나?  -->
       </div>
       </section>
       </div>
 
-      <section class="write-set1"> 
-        <div>
+
+      <section class="write-set1">
+        <form id="post_form" method="post" action="" enctype="multipart/form-data">
+             {% csrf_token %}
+          <div>
             <label>TITLE</label>
         </div>
-        <input type="text">
-        <button type="button" class="button-start" style=" width: 8vw;">지우기</button>
+        <input type="text" >
+        <!--<button type="button" class="button-start" style=" width: 8vw;">지우기</button>-->
       </section>
-      <section class="write-set2"> 
+      <section class="write-set2">
         <div>
             <label>IMAGES / VIDEOS</label>
         </div>
         <input type="text">
         <button type="button" class="button-start" style=" width: 8vw;">첨부</button>
       </section>
-      <section class="write-set3"> 
+      <section class="write-set3">
         <div>
             <label>TEXT</label>
         </div>
         <input type="text" placeholder="300자 이내의 텍스트를 자유롭게 입력하세요 :)">
-        <button type="button" class="button-start" style=" width: 8vw;">SEND</button>
+          <input type="submit" name="submit" class="button-start" value="Submit" />
+          </form>
+        <!--<button type="button" class="button-start" style=" width: 8vw;">SEND</button>-->
       </section>
-      
+
       <section id="comment">
             <div class="commetImgSet">
                 <img src="" alt="like">
@@ -78,11 +83,11 @@
                 <div id="hashtag">
                     <label style="color:#2C67C1; font-size: large; font-weight: bold; margin-top: 10px;">#냥이#댕이#멍멍이#사자</label>
                 </div>
-                
+
                 <div class="squareBox">
                     <label class="userName">댕냥 최고</label>
                 </div>
-                
+
                 <input id="commentInput" type="text" style=" width: 530px; height:80px; border-radius: 0%; margin-top: 20px;" >
                 <button type="button" class="button-start" style=" width: 8vw; margin-left: 10px;">SEND</button>
             </form>

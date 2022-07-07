@@ -2,13 +2,17 @@ from django import forms
 from .models import Post, Comment, PostImage, Hashtag
 
 class ImageForm(forms.ModelForm):
+    image = forms.ImageField(label='Image')
     class Meta :
         model = PostImage
         fields = ['image',]
 
-class NoneTitleForm(forms.ModelForm):
-    content =  forms.CharField(max_length=300)
+class NoneTitleForm(forms.Form):
+        title = forms.CharField(max_length=50, label="제목")
+        content = forms.CharField(max_length=300, label="내용")
+        tag = forms.CharField(required=False, label="태그")
+
+class CommentForm(forms.ModelForm):
     class Meta:
-        model = Post
-        # 모든 필드를 입력받고 싶을 때
-        fields = ['content','hashtag',]
+        model = Comment
+        fields = ['content']

@@ -15,8 +15,7 @@ def profilepage(request):
     return render(request, 'board/profile.html')
 
 
-def write(request):
-    return render(request, 'board/write.html')
+
 
 
 def infoShare(request):
